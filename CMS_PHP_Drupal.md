@@ -338,12 +338,12 @@ mailq
 
 ###### Cambiamos en drupal la configuración de la dirección de correo electrónico para notificaciones
 
-![Tarea5.1](image/Tarea5.1_Drupal.png)
+> ![Tarea5.1](image/Tarea5.1_Drupal.png)
 
 ###### Solo solo nos queda comprobar si funciona, para esto vamos a hacer que nos recuerde la contraseña en drupal y le indicamos nuestro correo
 
-![Tarea5.2](image/Tarea5.2_Drupal.png)
+> ![Tarea5.2](image/Tarea5.2_Drupal.png)
 
 ###### Revisamos nuestro correo para comprobar si ha llegado correctamente
 
-![Tarea5.3](image/Tarea5.3_Drupal.png)
+> ![Tarea5.3](image/Tarea5.3_Drupal.png)
