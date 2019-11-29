@@ -51,7 +51,7 @@ sudo apt install php libapache2-mod-php php-cli php-fpm php-json php-pdo php-mys
 
 3. Crea un usuario en la base de datos para trabajar con la base de datos donde se van a guardar los datos del CMS.
 
-##### Vamos a descargar Drupal desde la pagina oficial
+###### Vamos a descargar Drupal desde la pagina oficial
 
 ~~~
 wget https://www.drupal.org/download-latest/zip
@@ -149,11 +149,13 @@ mysql>GRANT ALL ON drupaldb.* TO drupal IDENTIFIED BY 'drupal';
 * Ahora buscamos nuestro tema descargado y hacemos clic en *Instalar y seleccionar de modo predeterminado*
 
 
-*5.* Instala un módulo para añadir alguna funcionalidad a drupal.
+5. Instala un módulo para añadir alguna funcionalidad a drupal.
 
 ###### Para instalar un módulo es igual que el tema, pero añadiendo la url de un módulo que queramos
 
 ### Tarea 3: Configuración multinodo
+
+-------------------------------------------------------
 
 1. Realiza un copia de seguridad de la base de datos
 
@@ -213,6 +215,8 @@ bind-address            = 0.0.0.0
 ~~~
 
 ### Tarea 4: Instalación de otro CMS PHP
+
+-------------------------------------------------------
 
 1. Elige otro CMS realizado en PHP y realiza la instalación en tu infraestructura.
 2. Configura otro virtualhost y elige otro nombre en el mismo dominio.
@@ -299,6 +303,8 @@ sudo /etc/init.d/apache2 restart
 ~~~
 
 ### Tarea 5: Necesidad de otros servicios
+
+-------------------------------------------------------
 
 1. La mayoría de los CMS tienen la posibilidad de mandar correos electrónicos (por ejemplo para notificar una nueva versión, notificar un comentario,…)
 Instala un servidor de correo electrónico en tu servidor. debes configurar un servidor relay de correo, para ello en el fichero /etc/postfix/main.cf, debes poner la siguiente línea
